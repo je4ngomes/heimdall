@@ -1,0 +1,33 @@
+{
+  "name": "heimdall",
+  "version": "1.0.0",
+  "description": "Schema Validator for Javascript/Typescript",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "tslint --config tslint.json -p .",
+    "test": "jest",
+    "format": "prettier --write '{.,src/**}/*.{js,jsx,ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shift-research/heimdall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shift-research/heimdall/issues"
+  },
+  "homepage": "https://github.com/shift-research/heimdall#readme",
+  "devDependencies": {
+    "husky": "^2.1.0",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "sidekicker": "0.0.17"
+  }
+}
